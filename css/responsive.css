@@ -1,0 +1,19 @@
+@media screen and (max-width: 720px){
+
+
+    .for-desktop{
+        display: none;
+    }
+    .for-mobile{
+        display: block;
+    }
+    .geeks img{
+        width: 70%;
+    }
+    .center-comming-soon h1 {
+        font-size: 44px;
+        margin: 35px 0;
+    }
+
+}
+
