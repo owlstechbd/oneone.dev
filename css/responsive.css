@@ -354,3 +354,33 @@
 
 }
 
+@media screen and (max-width: 400px){
+    .logo img {
+        width: 178px;
+    }
+    .about {
+        padding: 130px 0;
+    }
+    .pre-slider{
+        top: 41%;
+    }
+    .client-logo-container .client-slider img {
+        width: 65%!important;
+    }
+    .next-slider{
+        top: 41%;
+    }
+    .footer-info li{
+        font-size: 14px;
+    }
+    .for-small-device{
+        font-size: 10px;
+    }
+    .footer-action button {
+        padding: 7px 24px;
+    }
+    .footer-action{
+        padding: 40px 20px;
+    }
+}
+
