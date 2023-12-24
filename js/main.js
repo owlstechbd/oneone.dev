@@ -154,8 +154,17 @@ function togglePopup() {
   // Toggle the display of the overlay and popup
   overlay.style.display = overlay.style.display === 'block' ? 'none' : 'block';
   popup.style.display = popup.style.display === 'block' ? 'none' : 'block';
-}
+};
 
+
+$(window).on( 'scroll', function() {
+  var scroll = $(window).scrollTop();
+  if (scroll >= 150) {
+      $("header").addClass("sticky");
+  } else {
+      $("header").removeClass("sticky");
+  }
+});
 
 // animation
 

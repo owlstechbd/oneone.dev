@@ -1,3 +1,122 @@
+
+@media (min-width: 768px) and (max-width: 1030px) {
+    .swiper-slide.client-slider img{
+        width: 50%;
+    }
+    h2{
+        font-size: 46px!important;
+    }
+    .about-title {
+        text-align: center;
+    }
+    .about-content p {
+        font-size: 20px;
+        text-align: center;
+    }
+    .about{
+        padding: 100px 0;
+    }
+    .about-title h2 {
+        font-weight: 600;
+        font-size: 46px;
+    }
+    .right-elemnt img{
+        width: 300px;
+    }
+    .portfolio h2{
+        text-align: center;
+    }
+    .portfolio-content h3 {
+        font-size: 31px;
+    }
+    .portfolio-content p {
+        font-size: 18px;
+        color: #fff;
+    }
+    .portfolio-content ul {
+        display: flex;
+        flex-wrap: wrap;
+        width: 100%;
+    }
+    .service-elemnt img{
+        width: 50px;
+    }
+    .service-elemnt {
+        position: absolute;
+        left: 0;
+        top: -56px;
+    }
+    .service-content{
+        text-align: center;
+    }
+    .service{
+        padding: 60px 0;
+    }
+    .project h2{
+        text-align: center;
+    }
+    .slider-card{
+        margin: 50px 70px!important;
+    }
+    .client-logo-container .client-slider {
+        width: 20%!important;
+    }
+    .footer-bottom {
+        
+    }
+    .footer-left {
+        width: 50%;
+        flex-direction: column;
+    }
+    .footer-right{
+        width: 50%;
+    }
+    .footer{
+        padding-bottom: 40px;
+    }
+    .footer-right{
+        text-align: right;
+        flex-direction: column-reverse;
+    }
+
+    .dis-none{
+        display: none;
+    }
+    .footer-logo{
+        margin-bottom: 20px;
+    }
+    .call {
+        width: 98%;
+        padding-left: 0px;
+    }
+    .socail-icon ul {
+        display: flex;
+        margin: 0;
+        padding: 0;
+        justify-content: end;
+    }
+    .popup{
+        width: 95%;
+    }
+    .user {
+        left: 189px;
+        position: absolute;
+        top: 197px;
+    }
+    .mail {
+        left: 188px;
+        position: absolute;
+        top: 257px;
+    }
+    .for-small-device{
+        display: block;
+    }
+    .for-small-device{
+        text-align: center;
+        font-size: 14px;
+    }
+
+}
 @media screen and (max-width: 720px){
 
 
@@ -7,12 +126,230 @@
     .for-mobile{
         display: block;
     }
-    .geeks img{
-        width: 70%;
+    .logo img{
+        width: 200px;
     }
-    .center-comming-soon h1 {
-        font-size: 44px;
-        margin: 35px 0;
+    .hero{
+        padding-top: 0;
+    }
+    header{
+        background: #fff;
+        padding: 20px 0;
+        z-index: 999999;
+
+    }
+    .hero-content h2{
+        font-size: 40px;
+    }
+    .hero-content p {
+        font-size: 22px;
+    }
+    .popup{
+        padding: 50px 20px;
+        width: 97%;
+    }
+    #contactForm {
+        width: 90%;
+        margin: 0 auto;
+    }
+    .user {
+        left: 52px;
+        position: absolute;
+        top: 248px;
+    }
+    .mail {
+        left: 50px;
+        position: absolute;
+        top: 309px;
+    }
+    .swiper-slide.client-slider  {
+        width: 50%;
+    }
+    .swiper-slide.client-slider img {
+        width:70%;
+    }
+    h2{
+        font-size: 35px!important;
+    }
+    .about-title{
+        text-align: center;
+    }
+    p{
+        font-size: 18px!important;
+    }
+    .about-content{
+        text-align: center;
+    }
+    .right-elemnt img{
+        width: 300px;
+    }
+    .left-elemnt {
+        top: -53px;
+        left: 10px;
+        position: absolute;
+    }
+    .about{
+        padding: 100px 0;
+    }
+    .portfolio h2{
+        text-align: center;
+    }
+    .service-elemnt img{
+        width: 50px;
+    }
+    .service-elemnt {
+        position: absolute;
+        left: 0;
+        top: -60px;
+    }
+    .service-content{
+        padding-right: 0;
+        text-align: center;
+    }
+    .service-bottom-elemnt img{
+        width: 100px;
+    }
+    .project h2{
+        text-align: center;
+    }
+    .slider-card{
+        margin: 50px 40px;
+        padding: 20px 10px;
+    }
+    .client-logo-container .client-slider {
+        width: 30%!important;
+    }
+    .client-logo-container .client-slider img{
+        width: 70%!important;
+    }
+    .elemnt-top img{
+        width: 60px;
+    }
+    .testmonail-title{
+        padding-bottom: 50px;
+    }
+    .testmonail-nav {
+        position: absolute;
+        top: -79px;
+        right: 0;
+    }
+    .elemnt-bottom-right img{
+        width: 70px;
+    }
+    .elemnt-bottom-right {
+        position: absolute;
+        right: 0;
+        bottom: -54px;
+    }
+    .elemnt-bottom{
+        display: none;
+    }
+    .footer-top-logo ul{
+        
+    }
+    .footer-top-logo ul li{
+        width: 30%;
+    }
+    .dot-left img{
+        width: 150px;
+    }
+    .dot-left {
+        position: absolute;
+        left: -73px;
+        top: 35%;
+    }
+    .dot-right {
+        position: absolute;
+        right: -164px;
+        top: 24%;
+    }
+    .footer-action button {
+        padding: 10px 24px;
+    }
+
+    .footer-left {
+        width: 50%;
+        flex-direction: column;
+    }
+    .footer-right{
+        width: 50%;
+    }
+    .footer{
+        padding-bottom: 40px;
+    }
+    .footer-right{
+        text-align: right;
+        flex-direction: column-reverse;
+    }
+
+    .dis-none{
+        display: none;
+    }
+    .footer-logo{
+        margin-bottom: 20px;
+    }
+    .call {
+        width: 98%;
+        padding-left: 0px;
+    }
+    .socail-icon ul {
+        display: flex;
+        margin: 0;
+        padding: 0;
+        justify-content: end;
+    }
+    .call ul li a span{
+        font-size: 20px;
+    }
+    .for-small-device{
+        display: block;
+    }
+    .for-small-device{
+        text-align: center;
+        font-size: 12px;
+    }
+    .portfolio-mobile-box{
+        text-align: center;
+    margin: 30px 0;
+    }
+    .portfolio-mobile-box img{
+        width: 100%;
+    }
+    .portfolio-mobile-box h3{
+        margin: 15px 0;
+    }
+    .portfolio-mobile-box ul{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .portfolio-mobile-box ul li{
+        border: 1px #5F10F5 solid;
+        margin: 0;
+        margin: 10px;
+        border-radius: 25px;
+        padding: 6px 15px;
+        font-size: 11px;
+       
+        color: #5F10F5;
+    }
+    .portfolio-mobile-box ul span li {
+        background: #5F10F5;
+        color: #fff;
+    }
+    .portfolio-mobile-box ul li img{
+        width: 20px;
+    }
+    .next-slider{
+        top: 45%;
+        transform: rotate(180deg);
+        left: 10px;
+        position: absolute;
+    }
+    .pre-slider{
+        top: 45%;
+
+        right: 10px;
+        position: absolute;
     }
 
 }

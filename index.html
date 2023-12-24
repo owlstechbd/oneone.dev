@@ -29,20 +29,25 @@
 <body>
 	<div class="wrap">
 		<section class="hero">
-			<div class="container">
-				<div class="desktop-header">
-					<div class="logo">
-						<img src="images/logo.png" alt="">
-					</div>
-					<div class="menu">
-						<ul>
-							<li><a href="#">Our blog <img src="images/exit-right-corner.png" alt=""></a></li>
-							<span>
-								<li><a href="#" class="openPopup">Get in touch <img src="images/arrow-right-bule.png" alt=""></a></li>
-							</span>
-						</ul>
+			<header>
+				<div class="container">
+					<div class="desktop-header">
+						<div class="logo">
+							<img src="images/logo.png" alt="">
+						</div>
+						<div class="menu">
+							<ul>
+								<li><a href="#">Our blog <img src="images/exit-right-corner.png" alt=""></a></li>
+								<span>
+									<li class="for-desktop"><a href="#" class="openPopup">Get in touch <img src="images/arrow-right-bule.png" alt=""></a></li>
+								</span>
+							</ul>
+						</div>
 					</div>
 				</div>
+			</header>
+			<div class="container">
+				
 				<div class="hero-container">
 					<div class="hero-content">
 						<h2> <span class="animated-text"></span></h2>
@@ -76,7 +81,7 @@
 		<section class="about">
 			<div class="container">
 				<div class="row">
-					<div class="col-md-6">
+					<div class="col-lg-6 col-md-12 col-sm-12">
 						<div class="about-title">
 							<h2>We believe that <span>technology is the key</span> to building
 								a better world!</h2>
@@ -85,7 +90,7 @@
 							</div>
 						</div>
 					</div>
-					<div class="col-md-6">
+					<div class="col-lg-6 col-md-12 col-sm-12">
 						<div class="about-content">
 							<p>Our <span>passion-driven team of developers</span> has vast experience in digital, web,
 								and cloud product development. We work with each client individually to ensure that
@@ -105,7 +110,7 @@
 			<div class="container">
 				<h2>We have completed <span>more than 120 unique projects</span> for clients from all over the world!
 				</h2>
-				<div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel">
+				<div id="carouselExampleSlidesOnly" class="carousel slide for-desktop" data-ride="carousel" f>
 					<div class="carousel-inner">
 						<div class="carousel-item active">
 							<div class="portfolio-box">
@@ -173,6 +178,78 @@
 					</div>
 				</div><!-- carousel -->
 
+
+				<div id="carouselExampleControls" class="carousel slide for-mobile" data-ride="carousel">
+					<div class="carousel-inner">
+						<div class="carousel-item active">
+							<div class="portfolio-mobile">
+								<div class="portfolio-mobile-box">
+									<img src="images/project/project-1.png" alt="">
+									<h3>JeaLins</h3>
+									<p>JeaLins is an educational platform for people who want to develop in the field of their choice.</p>
+									<ul>
+										<li>Prototype Development</li>
+										<li>Graphic Design</li>
+										<li>Web Development</li>
+										<li>React.js</li>
+										<li>ASP.NET Core</li>
+										<li>Azure cloud</li>
+										<span>
+											<li>See case study <img src="images/arrow-right-bule.png" alt=""></li>
+										</span>
+								</div>
+							</div>
+						</div><!-- carousel-item  -->
+						<div class="carousel-item ">
+							<div class="portfolio-mobile">
+								<div class="portfolio-mobile-box">
+									<img src="images/project/project-1.png" alt="">
+									<h3>JeaLins</h3>
+									<p>JeaLins is an educational platform for people who want to develop in the field of their choice.</p>
+									<ul>
+										<li>Prototype Development</li>
+										<li>Graphic Design</li>
+										<li>Web Development</li>
+										<li>React.js</li>
+										<li>ASP.NET Core</li>
+										<li>Azure cloud</li>
+										<span>
+											<li>See case study <img src="images/arrow-right-bule.png" alt=""></li>
+										</span>
+								</div>
+							</div>
+						</div><!-- carousel-item  -->
+						<div class="carousel-item ">
+							<div class="portfolio-mobile">
+								<div class="portfolio-mobile-box">
+									<img src="images/project/project-1.png" alt="">
+									<h3>JeaLins</h3>
+									<p>JeaLins is an educational platform for people who want to develop in the field of their choice.</p>
+									<ul>
+										<li>Prototype Development</li>
+										<li>Graphic Design</li>
+										<li>Web Development</li>
+										<li>React.js</li>
+										<li>ASP.NET Core</li>
+										<li>Azure cloud</li>
+										<span>
+											<li>See case study <img src="images/arrow-right-bule.png" alt=""></li>
+										</span>
+								</div>
+							</div>
+						</div><!-- carousel-item  -->
+					</div>
+					
+					<div class="next-slider">
+						<a  class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev"><img src="images/arrow-right-light.png" alt=""></a>
+					</div>
+					<div class="pre-slider">
+						<a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next"><img src="images/arrow-right-light.png" alt=""></a>
+					</div>
+				</div>
+
+				
+
 			</div><!-- container -->
 			<div class="left-elemnt">
 				<img src="images/left-element.png" alt="">
@@ -185,16 +262,16 @@
 		<section class="service">
 			<div class="container">
 				<div class="row dis-flex">
-					<div class="col-md-6">
+					<div class="col-lg-6 col-md-12 col-sm-12">
 						<div class="service-content">
 							<h2>This is how <br><span>we can help you</span></h2>
 							<p>We create and improve websites, applications, systems and services</p>
 							<div class="gobal-btn">
-								<a href="#">Get in touch <img src="images/arrow-right-bule.png" alt=""></a>
+								<button class="openPopup">Get in touch <img src="images/arrow-right-bule.png" alt=""></button>
 							</div>
 						</div>
 					</div>
-					<div class="col-md-6">
+					<div class="col-lg-6 col-md-12 col-sm-12">
 						<div class="service-box">
 							<img src="images/paintbucket.png" alt="">
 							<div class="service-inner">
@@ -460,28 +537,28 @@
 			<div class="container">
 				<h2>We have developed a <span>4-step model</span> to apply to most demanding projects</h2>
 				<div class="row">
-					<div class="col-lg-3 col-md-3 col-sm-6">
+					<div class="col-lg-3 col-md-6 col-sm-6">
 						<div class="step-box">
 							<img src="images/artificial-intelligence.png" alt="">
 							<h3>01. Understand</h3>
 							<p>Reserach, analysis, workshops, discovery</p>
 						</div>
 					</div>
-					<div class="col-lg-3 col-md-3 col-sm-6">
+					<div class="col-lg-3 col-md-6 col-sm-6">
 						<div class="step-box">
 							<img src="images/magnifier.png" alt="">
 							<h3>02. Explore</h3>
 							<p>Solution architecture, sketching, scoping, MVP</p>
 						</div>
 					</div>
-					<div class="col-lg-3 col-md-3 col-sm-6">
+					<div class="col-lg-3 col-md-6 col-sm-6">
 						<div class="step-box">
 							<img src="images/loading.png" alt="">
 							<h3>03. Materialize</h3>
 							<p>Prototypes, design, coding, tests</p>
 						</div>
 					</div>
-					<div class="col-lg-3 col-md-3 col-sm-6">
+					<div class="col-lg-3 col-md-6 col-sm-6">
 						<div class="step-box">
 							<img src="images/rocket.png" alt="">
 							<h3>04. Improve</h3>
@@ -499,12 +576,12 @@
 			<div class="container">
 				<div class="footer-top">
 					<div class="row">
-						<div class="col-lg-4 col-md-6 col-sm-12">
+						<div class="col-lg-4 col-md-12 col-sm-12">
 							<div class="footer-top-heading">
 								<h3>We use the <span>best tools & solutions</span> to createthe best products</h3>
 							</div>
 						</div>
-						<div class="col-lg-8 col-md-6 col-sm-12">
+						<div class="col-lg-8 col-md-12 col-sm-12">
 							<div class="footer-top-logo">
 								<ul>
 									<li>
@@ -558,7 +635,7 @@
 					<div class="footer-left">
 						<div class="footer-logo">
 							<img src="images/logo.png" alt="">
-							<p>© 2023 oneone.dev all rights reserved</p>
+							<p class="dis-none">© 2023 oneone.dev all rights reserved</p>
 						</div>
 						<div class="footer-info">
 							<ul>
@@ -567,7 +644,7 @@
 								<li>26-600 Radom, Poland</li>
 							</ul>
 						</div>
-						<div class="footer-info">
+						<div class="footer-info dis-none">
 							<ul>
 								<li><b>INIP:</b> 7962995900</li>
 								<li><b>KRS:</b> 0000833096</li>
@@ -589,7 +666,9 @@
 							</ul>
 						</div>
 					</div>
+					
 				</div>
+				<p class="for-small-device">© 2023 oneone.dev all rights reserved</p>
 			</div>
 		</section>
 		<div class="overlay" id="overlay">
