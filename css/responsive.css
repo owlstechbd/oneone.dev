@@ -382,5 +382,15 @@
     .footer-action{
         padding: 40px 20px;
     }
+    .mail {
+        left: 48px;
+        position: absolute;
+        top: 289px;
+    }
+    .user {
+        left: 48px;
+        position: absolute;
+        top: 230px;
+    }
 }
 
